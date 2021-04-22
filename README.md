@@ -19,7 +19,7 @@ optional arguments:
 -h, --help show this help message and exit
 --codes CODES [CODES ...] 传入一组项目代码文件路径
 --pods PODS [PODS ...] 传入一组 pod 代码文件路径
---podspec PODSPEC [PODSPEC ...] 传入一组 podspec 文件路径
+--podspec PODSPEC [PODSPEC ...] 传入一组 podspec 文件路径  （使用第三方库才有这个文件）
 --wl [WL [WL ...]] 传入白名单，白名单里的依赖不会被检测
 【注意】
 如果检测到 unfindPods 较多，说明传入的 pods 存放路径可能有问题。
